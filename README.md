@@ -12,6 +12,12 @@ Add this line to your application's Gemfile:
 gem 'data_fake'
 ```
 
+Installing from github.
+
+```ruby
+gem "data_fake", :git => 'https://github.com/sthasubin429/data_fake.git'
+```
+
 And then execute:
 
     $ bundle install
@@ -22,7 +28,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+  DataFake.fake_str
+  DataFake.fake_number
+```
 
 ## Development
 
